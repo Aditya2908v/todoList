@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.main-heading {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.addTask {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.inputBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.task {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-evenly;
+}
+
+.task h1 {
+  margin-right: 10px; /* Add some spacing between the elements */
+}
+
+.add-btn {
+  padding: 8px 16px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.add-btn:hover {
+  background-color: #1976d2;
+}
+
+.del-btn {
+  padding: 8px 16px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.del-btn:hover {
+  background-color: #cc0000;
+}
+
+.completed-btn {
+  padding: 8px 16px;
+  background-color: #00cc00;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+.completed-btn:hover {
+  background-color: #009900;
+}
